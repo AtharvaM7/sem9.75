@@ -106,7 +106,8 @@ def perceptron(A, B):
 
 # Call the perceptron function.
 w = perceptron(A, B)
+# Plot the line ax + by + c = 0 and the points in the lists A and B.
+plot_data(A, B, np.array([4, 2, 3]))
 # Plot the data points and the line ax + by + c = 0.
 plot_data(A, B, w)
-
 
